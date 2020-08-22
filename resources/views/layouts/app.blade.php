@@ -7,12 +7,9 @@
 
     <title>Laravel</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="/css/app.css">
-    <!-- Bootstrap -->
+    <!-- Font Awesome -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -22,7 +19,7 @@
         body {
             background-color: #fff;
             color: #636b6f;
-            font-family: 'Nunito', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 200;
             height: 100vh;
             margin: 0;
@@ -75,7 +72,9 @@
 <body>
     <section id="app-layout">
         @include("includes.side-menu")
-        @yield('content')
+        <section id="content-section">
+          @yield('content')
+        </section>
     </section>
 </body>
 

@@ -1,5 +1,21 @@
-#about-page {
+#waitlist-page {
     padding: 100px;
+    form {
+        .form-group {
+            .form-control {
+                border: 2px solid #b52932;
+                box-sizing: border-box;
+                font-size: 1rem;
+                height: auto;
+                padding: 5px;
+            }
+            label {
+                color: #000;
+                font-size: 700;
+                margin-bottom: 5px;
+            }
+        }
+    }
     h1 {
         color: black;
         font-size: 3rem;
@@ -16,9 +32,9 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 767px) {
-  #about-page {
-    padding: 20px;
-  }
+    #waitlist-page {
+        padding: 20px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
