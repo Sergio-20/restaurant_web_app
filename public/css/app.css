@@ -9128,6 +9128,47 @@ table {
   }
 }
 
+#single-menu-page {
+  padding: 60px;
+}
+
+#single-menu-page h1 {
+  color: #bc2d36;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+#single-menu-page .item {
+  margin-bottom: 1rem;
+}
+
+#single-menu-page .title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#single-menu-page .title h4,
+#single-menu-page .title .price {
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 767px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #single-menu-page {
+    padding: 20px;
+  }
+}
+
 #about-page {
   padding: 100px;
 }
